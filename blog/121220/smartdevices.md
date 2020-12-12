@@ -1,7 +1,10 @@
 ---
-title: Smart devices, the good, the bad, and the middle ground
+title: Blog
 ---
 
+
+## Smart devices, the good, the bad, and the middle ground
+### 12.12.20
 
 As you probably know I've been into technology for quite a long time, and like most people, I've looked into the idea of smart devices such as smart watches and other little interencted connected devices. I actually have a smart watch that I bought in July and here's my opinion on it... It's not that useful, and may even be a privacy risk, but it's also the perfect middle ground.
 
