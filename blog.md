@@ -3,6 +3,10 @@ title: Blog
 ---
 
 
+## [Fixing proprietary graphics drivers on Linux](/blog/201220/fixing-proprietary-graphics-drivers.md)
+### 20.12.20
+Preview: "If you use Linux on a computer with a certain company's graphics card, you may notice that the open source graphics drivers don't work properly and might try installing the proprietary graphics drivers. Unfortunately, you're likely to run into problems if you don't do some steps before installation..."
+
 ## [Smart devices, the good, the bad, and the middle ground](/blog/121220/smartdevices.md)
 ### 12.12.20
 
