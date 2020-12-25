@@ -37,3 +37,5 @@ echo 'Section "Screen"
     Option         "NoLogo" "True"
 EndSection' | sudo tee /usr/share/X11/xorg.conf.d/10-nologo.conf
 ```
+
+Written by Julian Fairfax

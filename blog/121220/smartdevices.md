@@ -17,3 +17,5 @@ However, I do think my particular smart watch is the perfect middle ground becau
 - It can be used as a normal watch by turning off the smart watch portition, an offine smart watch by turning off Bluetooth, or a normal smart watch by keeping the smart watch portition and Bluetooth turned on.
 
 I'm currently not using it too much since most of the places I go have clocks, or if not, I can just use my phone. But if I go or a school trip or would just like to go out without my phone, I'll use it as a normal watch, which works just fine for me.
+
+Written by Julian Fairfax
