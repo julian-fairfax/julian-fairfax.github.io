@@ -3,7 +3,7 @@ title: Blog
 ---
 
 
-## Fixing proprietary graphics drivers on Linux with systemd-boot
+## [Fixing proprietary graphics drivers on Linux with systemd-boot](/blog/281220/fixing-proprietary-graphics-drivers-systemd-boot.md)
 ### 28th of December 2020 / 28.12.20
 Preview: "If you use Linux on a computer with a certain company's graphics card, you may notice that the open source graphics drivers don't work properly and might try installing the proprietary graphics drivers. Unfortunately, you're likely to run into problems if you don't do some steps before installation. Some Linux distributions use systemd-boot which requires following different steps..."
 
