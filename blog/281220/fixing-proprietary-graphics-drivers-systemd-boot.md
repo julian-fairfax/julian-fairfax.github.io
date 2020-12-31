@@ -10,7 +10,7 @@ If you use Linux on a computer with a certain company's graphics card, you may n
 
 Some Linux distributions use systemd-boot which requires following different steps.
 
-I've had this problem when running Linux on my MacBook7,1 and I've [created a script](https://gist.github.com/julian-fairfax/752f6f5fc9786b7c41ea08920800f788) to fix the proprietary drivers. It's important to run the script before you install the drivers, as not doing so could result in your computer not booting.
+I've had this problem when running Linux on my MacBook7,1 (this is most likely not going to be a problem for you if you have a newer computer) and I've [created a script](https://gist.github.com/julian-fairfax/752f6f5fc9786b7c41ea08920800f788) to fix the proprietary drivers. It's important to run the script before you install the drivers, as not doing so could result in your computer not booting.
 
 This script is based on [this thread](https://bbs.archlinux.org/viewtopic.php?pid=1910114#p1910114) for fixing the computer not booting:
 ```

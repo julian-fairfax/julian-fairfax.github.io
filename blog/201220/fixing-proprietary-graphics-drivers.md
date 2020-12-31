@@ -8,7 +8,7 @@ title: Blog
 
 If you use Linux on a computer with a certain company's graphics card, you may notice that the open source graphics drivers don't work properly and might try installing the proprietary graphics drivers. Unfortunately, you're likely to run into problems if you don't do some steps before installation.
 
-I've had this problem when running Linux on my MacBook7,1 and I've [created a script](https://gist.github.com/julian-fairfax/f6867255fa695231c34c7da40614ac83) to fix the proprietary drivers. It's important to run the script before you install the drivers, as not doing so could result in your computer not booting.
+I've had this problem when running Linux on my MacBook7,1 (this is most likely not going to be a problem for you if you have a newer computer) and I've [created a script](https://gist.github.com/julian-fairfax/f6867255fa695231c34c7da40614ac83) to fix the proprietary drivers. It's important to run the script before you install the drivers, as not doing so could result in your computer not booting.
 
 This script is based on [this thread](https://askubuntu.com/questions/264247/proprietary-nvidia-drivers-with-efi-on-mac-to-prevent-overheating) for fixing the computer not booting:
 ```
