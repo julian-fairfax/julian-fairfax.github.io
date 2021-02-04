@@ -3,6 +3,10 @@ title: Blog
 ---
 
 
+## [The opposite of a dilemma](/blog/040221/the-opposite-of-a-dilemma.md)
+## 4th of February 2021 / 04.02.21
+Preview: "If you, like myself, are interested in the subject of privacy, then you've probably seen "The Social Dilemma", a film that explores the rise of social media and the damage it has caused to society. I'm going to be focusing on the films title here, which refers to the choice of using social media or not, as a dilemma. But is that the case with social media?"
+
 ## [Switching to Linux](/blog/200121/switching-to-linux.md)
 ### 20th of January 2021 / 20.01.21
 Preview: "If you saw my blog post from last year (unfortunately I don't have a link to it), then'll probably already know why I'm switching to Linux, but if you haven't, here's why..."
