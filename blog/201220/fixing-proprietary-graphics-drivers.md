@@ -6,7 +6,7 @@ title: Blog
 ## Fixing proprietary graphics drivers on Linux
 ### 20.12.20
 
-If you use Linux on a computer with a certain company's graphics card, you may notice that the open source graphics drivers don't work properly and might try installing the proprietary graphics drivers. Unfortunately, you're likely to run into problems if you don't do some steps before installation.
+If you use Linux on a computer with an Nvidia graphics card, you may notice that the open source graphics drivers don't work properly and might try installing the proprietary graphics drivers. Unfortunately, you're likely to run into problems if you don't do some steps before installation.
 
 I've had this problem when running Linux on my MacBook7,1 (this is most likely not going to be a problem for you if you have a newer computer) and I've [created a script](https://gist.github.com/julian-fairfax/f6867255fa695231c34c7da40614ac83) to fix the proprietary drivers. It's important to run the script before you install the drivers, as not doing so could result in your computer not booting.
 
@@ -30,7 +30,7 @@ EndSection' | sudo tee /usr/share/X11/xorg.conf.d/10-brightness.conf
 ```
 
 
-I also added this code to not show the certain company's logo on boot:
+I also added this code to not show Nvidia's logo on boot:
 ```
 echo 'Section "Screen"
     Identifier     "Screen0"

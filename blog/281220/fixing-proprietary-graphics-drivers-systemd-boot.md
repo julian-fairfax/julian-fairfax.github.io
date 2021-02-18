@@ -6,7 +6,7 @@ title: Blog
 ## Fixing proprietary graphics drivers on Linux with systemd-boot
 ### 20.12.20
 
-If you use Linux on a computer with a certain company's graphics card, you may notice that the open source graphics drivers don't work properly and might try installing the proprietary graphics drivers. Unfortunately, you're likely to run into problems if you don't do some steps before installation. 
+If you use Linux on a computer with an Nvidia graphics card, you may notice that the open source graphics drivers don't work properly and might try installing the proprietary graphics drivers. Unfortunately, you're likely to run into problems if you don't do some steps before installation. 
 
 Some Linux distributions use systemd-boot which requires following different steps.
 
@@ -26,6 +26,23 @@ endfor" | sudo tee /boot/efi/startup.nsh
 
 sudo efibootmgr --create --disk <INDENTIFER_DISK> --loader shellx64.efi --label "EFI Shell"
 sudo efibootmgr -o $(efibootmgr | grep "EFI Shell" | sed 's/Boot//'| sed 's/\*.*//')
+```
+
+And [this thread](https://askubuntu.com/questions/76081/brightness-not-working-after-installing-nvidia-driver) for fixing the brightness not working:
+```
+echo 'Section "Device"
+    Identifier     "Device0"
+    Option         "RegistryDwords" "EnableBrightnessControl=1"
+EndSection' | sudo tee /usr/share/X11/xorg.conf.d/10-brightness.conf
+```
+
+
+I also added this code to not show Nvidia's logo on boot:
+```
+echo 'Section "Screen"
+    Identifier     "Screen0"
+    Option         "NoLogo" "True"
+EndSection' | sudo tee /usr/share/X11/xorg.conf.d/10-nologo.conf
 ```
 
 Make sure to replace these values before running the script:  
