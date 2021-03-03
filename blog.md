@@ -3,6 +3,10 @@ title: Blog
 ---
 
 
+## [Pi Capsule Project](/blog/030321/pi-capsule-project.md)
+### 3rd of March 2021 / 03.02.21
+Preview: "On the 20th of February I released the first version of Pi Capsule Project, which is a Linux command line tool to configure a Pi Capsule: an AFP server, SMB server, and Wi-Fi network designed to replicate the functionality of an Apple Time Capsule using a Raspberry Pi with free and open-source software..."
+
 ## [The opposite of a dilemma](/blog/040221/the-opposite-of-a-dilemma.md)
 ### 4th of February 2021 / 04.02.21
 Preview: "If you, like myself, are interested in the subject of privacy, then you've probably seen "The Social Dilemma", a film that explores the rise of social media and the damage it has caused to society. I'm going to be focusing on the films title here, which refers to the choice of using social media or not, as a dilemma. But is that the case with social media?"
