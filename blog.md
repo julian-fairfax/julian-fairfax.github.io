@@ -3,6 +3,10 @@ title: Blog
 ---
 
 
+## [Uniform look for Qt applications in GTK](/blog/100321/qt-in-gtk.md)
+### 10th of March 2021 / 10.02.21
+Previw: "Applications that use the Qt toolkit use different themes than applications that use the GTK toolkit and than a GTK desktop environment. This post will help you get a uniform look for your Qt applications in a GTK desktop environment. You can run this script or follow the instructions below..."
+
 ## [Pi Capsule Project](/blog/030321/pi-capsule-project.md)
 ### 3rd of March 2021 / 03.02.21
 Preview: "On the 20th of February I released the first version of Pi Capsule Project, which is a Linux command line tool to configure a Pi Capsule: an AFP server, SMB server, and Wi-Fi network designed to replicate the functionality of an Apple Time Capsule using a Raspberry Pi with free and open-source software..."
